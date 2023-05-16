@@ -1,9 +1,7 @@
 #game {
-	background-image: linear-gradient(
-			0deg,
+	background-image: linear-gradient(0deg,
 			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+			rgba(0, 0, 0, 0.5)),
 		url(/IMG/form.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -23,6 +21,7 @@
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.798);
 }
+
 #game a:hover {
 	color: rgb(242, 116, 244);
 }
@@ -63,21 +62,16 @@ input[type="checkbox"] {
 }
 
 /* Mobile design: #1 (Extra small devices: phones 480px down) */
-@media screen and (max-width: 480px) {
-}
+@media screen and (max-width: 480px) {}
 
 /* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
-@media screen and (min-width: 481px) {
-}
+@media screen and (min-width: 481px) {}
 
 /* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
-@media screen and (min-width: 769px) {
-}
+@media screen and (min-width: 769px) {}
 
 /*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
-@media screen and (min-width: 1025px) {
-}
+@media screen and (min-width: 1025px) {}
 
 /* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
-@media screen and (min-width: 1201px) {
-}
+@media screen and (min-width: 1201px) {}

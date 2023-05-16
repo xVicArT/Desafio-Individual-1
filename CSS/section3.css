@@ -16,11 +16,9 @@
 	display: flex;
 	align-items: center;
 	align-content: center;
-	background-image: linear-gradient(
-			0deg,
+	background-image: linear-gradient(0deg,
 			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+			rgba(0, 0, 0, 0.5)),
 		url(/IMG/discografia.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -44,6 +42,7 @@
 #globalcontainer a {
 	text-decoration: none;
 }
+
 .slide-container {
 	width: 100vw;
 	height: 85vh;
@@ -76,6 +75,7 @@
 	transition: 0.5s;
 	filter: saturate(10%);
 }
+
 .button {
 	position: absolute;
 	width: 240px;
@@ -83,19 +83,20 @@
 	transition: 0.5s;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
 .button:hover {
 	background-color: rgba(0, 0, 0, 0.2);
 	box-shadow: 1vw 2vw 5vw #00e1ff2f;
 }
 
 /* Mobile design: #1 (Extra small devices: phones 480px down) */
-@media screen and (max-width: 409px) {
-}
+@media screen and (max-width: 409px) {}
 
 /* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
 @media screen and (min-width: 410px) {
-	#slider-span1:target ~ .image-slider #img1,
-	#slider-span1:target ~ .image-slider #button-1 {
+
+	#slider-span1:target~.image-slider #img1,
+	#slider-span1:target~.image-slider #button-1 {
 		/* width:17rem;
     height:32rem; */
 		width: 17rem;
@@ -105,8 +106,8 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span2:target ~ .image-slider #img2,
-	#slider-span2:target ~ .image-slider #button-2 {
+	#slider-span2:target~.image-slider #img2,
+	#slider-span2:target~.image-slider #button-2 {
 		width: 17rem;
 		height: 32rem;
 		background-color: transparent;
@@ -114,8 +115,8 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span3:target ~ .image-slider #img3,
-	#slider-span3:target ~ .image-slider #button-3 {
+	#slider-span3:target~.image-slider #img3,
+	#slider-span3:target~.image-slider #button-3 {
 		width: 17rem;
 		height: 32rem;
 		background-color: transparent;
@@ -123,8 +124,8 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span4:target ~ .image-slider #img4,
-	#slider-span4:target ~ .image-slider #button-4 {
+	#slider-span4:target~.image-slider #img4,
+	#slider-span4:target~.image-slider #button-4 {
 		width: 17rem;
 		height: 32rem;
 		background-color: transparent;
@@ -132,8 +133,8 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span5:target ~ .image-slider #img5,
-	#slider-span5:target ~ .image-slider #button-5 {
+	#slider-span5:target~.image-slider #img5,
+	#slider-span5:target~.image-slider #button-5 {
 		width: 17rem;
 		height: 32rem;
 		background-color: transparent;
@@ -141,8 +142,8 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span6:target ~ .image-slider #img6,
-	#slider-span6:target ~ .image-slider #button-6 {
+	#slider-span6:target~.image-slider #img6,
+	#slider-span6:target~.image-slider #button-6 {
 		width: 17rem;
 		height: 32rem;
 		background-color: transparent;
@@ -150,35 +151,36 @@
 		box-shadow: 0vw 0vw 3vw #00e1ff2f;
 	}
 
-	#slider-span1:target ~ .image-slider {
+	#slider-span1:target~.image-slider {
 		left: 43rem;
 	}
-	#slider-span2:target ~ .image-slider {
+
+	#slider-span2:target~.image-slider {
 		left: 28.15rem;
 	}
-	#slider-span3:target ~ .image-slider {
+
+	#slider-span3:target~.image-slider {
 		left: 9.4rem;
 	}
 
-	#slider-span4:target ~ .image-slider {
+	#slider-span4:target~.image-slider {
 		left: -9.4rem;
 	}
-	#slider-span5:target ~ .image-slider {
+
+	#slider-span5:target~.image-slider {
 		left: -28.15rem;
 	}
-	#slider-span6:target ~ .image-slider {
+
+	#slider-span6:target~.image-slider {
 		left: -43rem;
 	}
 }
 
 /* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
-@media screen and (min-width: 769px) {
-}
+@media screen and (min-width: 769px) {}
 
 /*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
-@media screen and (min-width: 1025px) {
-}
+@media screen and (min-width: 1025px) {}
 
 /* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
-@media screen and (min-width: 1201px) {
-}
+@media screen and (min-width: 1201px) {}
