@@ -1,2 +1,3 @@
 # Desafio-Individual-1
-Desafio individual #1 : Banda (Agrupacion musical) Funcion informativa y comercial - Blog / Merch
+Desafio individual #1 : Twenty one pilots - Fanpage web.
+  Victor Aristizabal, D1, Desarrollo de Software enfocado REACT.
