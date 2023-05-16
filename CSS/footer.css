@@ -1,0 +1,28 @@
+footer nav {
+	display: inline-block;
+	background-color: aqua;
+	text-align: center;
+	align-items: center;
+	background-color: rgb(135, 18, 18);
+	text-decoration: none;
+	color: rgb(33, 183, 217);
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 1.5vw;
+}
+
+footer nav a {
+	text-decoration: none;
+	color: rgb(33, 183, 217);
+}
+
+footer nav a:hover {
+	color: rgb(242, 116, 244);
+}
+
+#socialmedia img {
+	padding-top: 8px;
+	width: 3%;
+	height: 3%;
+}

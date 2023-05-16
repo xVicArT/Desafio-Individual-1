@@ -1,0 +1,184 @@
+#discografia h2 {
+	color: rgba(242, 116, 244, 0.745);
+	text-shadow: 0.5vw 0.5vw 1vw #f274f4be;
+	font-weight: bold;
+	font-size: 5vw;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+}
+
+#globalcontainer {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	background-image: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(/IMG/discografia.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+#globalcontainer p {
+	font-size: x-large;
+	font-weight: bold;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #550f16;
+	text-shadow: 0.5vw 1.4vw 1vw #550f16;
+	letter-spacing: 1px;
+	word-wrap: break-word;
+}
+
+#globalcontainer a {
+	text-decoration: none;
+}
+.slide-container {
+	width: 100vw;
+	height: 85vh;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.image-slider {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.7s;
+}
+
+.slides-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 30px 0 30px;
+}
+
+.img {
+	position: relative;
+	width: 240px;
+	height: 370px;
+	transition: 0.5s;
+	filter: saturate(10%);
+}
+.button {
+	position: absolute;
+	width: 240px;
+	height: 370px;
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 1vw 2vw 5vw #00e1ff2f;
+}
+
+/* Mobile design: #1 (Extra small devices: phones 480px down) */
+@media screen and (max-width: 409px) {
+}
+
+/* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
+@media screen and (min-width: 410px) {
+	#slider-span1:target ~ .image-slider #img1,
+	#slider-span1:target ~ .image-slider #button-1 {
+		/* width:17rem;
+    height:32rem; */
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span2:target ~ .image-slider #img2,
+	#slider-span2:target ~ .image-slider #button-2 {
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span3:target ~ .image-slider #img3,
+	#slider-span3:target ~ .image-slider #button-3 {
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span4:target ~ .image-slider #img4,
+	#slider-span4:target ~ .image-slider #button-4 {
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span5:target ~ .image-slider #img5,
+	#slider-span5:target ~ .image-slider #button-5 {
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span6:target ~ .image-slider #img6,
+	#slider-span6:target ~ .image-slider #button-6 {
+		width: 17rem;
+		height: 32rem;
+		background-color: transparent;
+		filter: saturate(100%);
+		box-shadow: 0vw 0vw 3vw #00e1ff2f;
+	}
+
+	#slider-span1:target ~ .image-slider {
+		left: 43rem;
+	}
+	#slider-span2:target ~ .image-slider {
+		left: 28.15rem;
+	}
+	#slider-span3:target ~ .image-slider {
+		left: 9.4rem;
+	}
+
+	#slider-span4:target ~ .image-slider {
+		left: -9.4rem;
+	}
+	#slider-span5:target ~ .image-slider {
+		left: -28.15rem;
+	}
+	#slider-span6:target ~ .image-slider {
+		left: -43rem;
+	}
+}
+
+/* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
+@media screen and (min-width: 769px) {
+}
+
+/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
+@media screen and (min-width: 1025px) {
+}
+
+/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
+@media screen and (min-width: 1201px) {
+}
