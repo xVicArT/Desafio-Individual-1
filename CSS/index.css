@@ -12,7 +12,7 @@ h1 {
 	text-shadow: 0.5vw 0.5vw 1vw #f274f4be;
 	padding-top: 20vw;
 	font-weight: bold;
-	font-size: 7vw;
+	font-size: 5.5vw;
 	text-align: center;
 }
 
@@ -93,5 +93,5 @@ header a:hover {
 }
 
 #principal h2{
-	font-size: 5vw;
+	font-size: 4vw;
 }
