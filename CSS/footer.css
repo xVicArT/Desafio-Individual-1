@@ -23,6 +23,67 @@ footer nav a:hover {
 
 #socialmedia img {
 	padding-top: 8px;
-	width: 3%;
-	height: 3%;
+	width: 3.5%;
+	height: 3.5%;
 }
+
+@media (max-width: 991px) {
+
+	#socialmedia img {
+		padding-top: 8px;
+		width: 3.5%;
+		height: 3.5%;
+	}
+
+	footer nav {
+		font-size: 1.5vw;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	#socialmedia img {
+		padding-top: 8px;
+		width: 6%;
+		height: 6%;
+	}
+
+	footer nav {
+		font-size: 1.9vw;
+	}
+
+}
+
+@media screen and (max-width: 4320px) and (min-width: 1440px) {
+
+	#socialmedia img {
+		padding-top: 8px;
+		width: 2%;
+		height: 2%;
+	}
+
+	footer nav {
+		font-size: 1.2vw;
+	}
+
+}
+
+
+/* Mobile design: #1 (Extra small devices: phones 400px down) */
+@media screen and (max-width: 400px) {}
+
+/* Mobile design: #2 (Small devices: Large phones and portrait tablets 400px - 768px) */
+@media screen and (min-width: 401px) {}
+
+/* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
+@media screen and (min-width: 769px) {}
+
+/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1025px)  */
+@media screen and (min-width: 1025px) {}
+
+/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1025px-1440px) */
+@media screen and (min-width: 1206px) {}
+
+/* Desktop design: #6 (Extra large devices: Large laptops and desktops or TV 1440px up) */
+@media screen and (min-width: 1207px) {}

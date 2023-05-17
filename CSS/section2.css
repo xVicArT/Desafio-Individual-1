@@ -11,7 +11,7 @@
 #miembros h2 {
 	color: rgba(242, 116, 244, 0.745);
 	font-weight: bold;
-	font-size: 5vw;
+	font-size: 6vw;
 	text-align: center;
 	align-items: center;
 	padding-top: 5.5vw;
@@ -22,7 +22,7 @@
 	color: rgba(242, 116, 244, 0.745);
 	text-shadow: 0.2vw 0.2vw 0.4vw #f274f4be;
 	font-weight: lighter;
-	font-size: 3.5vw;
+	font-size: 4vw;
 	text-align: center;
 	align-items: center;
 	padding-bottom: 2.5vw;
@@ -30,10 +30,21 @@
 
 #tyler {
 	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(0, 0, 255, 0);
-	text-align: justify;
+	background-color: rgba(13, 13, 13, 0.75);
+	text-align: center;
 	margin-right: 2vw;
 	font-size: 2.5vw;
+	border-radius: 2vw;
+}
+
+#tyler2 {
+	color: rgba(255, 255, 255, 0.798);
+	background-color: rgba(13, 13, 13, 0.75);
+	text-align: center;
+	margin-right: 2vw;
+	font-size: 2.5vw;
+	padding-top: 1.5vw;
+	border-radius: 2vw;
 }
 
 #tyler:hover {
@@ -42,16 +53,35 @@
 	box-shadow: 0vw 3vw 15vw #00e1ff80;
 	-webkit-backdrop-filter: blur(0.3vw);
 	backdrop-filter: blur(0.3vw);
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(13, 13, 13, 0.75);
+}
+
+#tyler2:hover {
+	border: 0 solid transparent;
+	border-radius: 2vw;
+	box-shadow: 0vw 3vw 15vw #00e1ff80;
+	-webkit-backdrop-filter: blur(0.3vw);
+	backdrop-filter: blur(0.3vw);
+	background-color: rgba(13, 13, 13, 0.75);
 }
 
 #josh {
 	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(255, 3, 3, 0);
-	text-align: justify;
-	margin-left: 2vw;
+	background-color: rgba(13, 13, 13, 0.75);
+	text-align: center;
+	margin-right: 2vw;
 	font-size: 2.5vw;
-	word-break: normal;
+	border-radius: 2vw;
+}
+
+#josh2 {
+	color: rgba(255, 255, 255, 0.798);
+	background-color: rgba(13, 13, 13, 0.75);
+	text-align: center;
+	margin-right: 2vw;
+	font-size: 2.5vw;
+	padding-top: 1.5vw;
+	border-radius: 2vw;
 }
 
 #josh:hover {
@@ -60,7 +90,16 @@
 	box-shadow: 0vw 3vw 15vw #00e1ff80;
 	-webkit-backdrop-filter: blur(0.3vw);
 	backdrop-filter: blur(0.3vw);
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(13, 13, 13, 0.75);
+}
+
+#josh2:hover {
+	border: 0vw solid transparent;
+	border-radius: 2vw;
+	box-shadow: 0vw 3vw 15vw #00e1ff80;
+	-webkit-backdrop-filter: blur(0.3vw);
+	backdrop-filter: blur(0.3vw);
+	background-color: rgba(13, 13, 13, 0.75);
 }
 
 #miembros-container {
@@ -72,17 +111,69 @@
 	background-color: transparent;
 }
 
-/* Mobile design: #1 (Extra small devices: phones 480px down) */
-@media screen and (max-width: 480px) {}
+/* Mobile design: #1 (Extra small devices: phones 400px down) */
+@media screen and (max-width: 375px) {
 
-/* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
-@media screen and (min-width: 481px) {}
+	#miembros h2 {
+		font-size: 8vw;
+	}
+	
+	#miembros h3 {
+		font-size: 6vw;
+		padding: 1.5vw;
+	}
+	
+	#tyler {
+		text-align: justify;
+		margin-right: 0vw;
+		font-size: 3.7vw;
+	}
+	
+	#tyler2 {
+		text-align: justify;
+		margin-right: 0vw;
+		font-size: 3.7vw;
+		padding-top: 2vw;
+	}
+
+	#josh {
+		text-align: justify;
+		margin:0;
+		font-size: 3.7vw;
+		
+	}
+	
+	#josh2 {
+		text-align: justify;
+		margin: 0;
+		font-size: 3.7vw;
+		padding-top: 2vw;
+	}
+
+	#miembros-container {
+		display: flex;
+		flex-direction: column;
+		border: 0;
+		margin: 0;
+		padding: 10vw;
+		padding-top: 3vw;
+		background-color: transparent;
+	}
+
+}
+
+/* Mobile design: #2 (Small devices: Large phones and portrait tablets 400px - 768px) */
+@media screen and (min-width: 769px) {}
+
 
 /* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
 @media screen and (min-width: 769px) {}
 
-/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
+/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1025px)  */
 @media screen and (min-width: 1025px) {}
 
-/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
-@media screen and (min-width: 1201px) {}
+/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1025px-1440px) */
+@media screen and (min-width: 1206px) {}
+
+/* Desktop design: #6 (Extra large devices: Large laptops and desktops or TV 1440px up) */
+@media screen and (min-width: 1207px) {}

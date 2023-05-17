@@ -48,6 +48,7 @@ label {
 	color: rgba(255, 255, 255, 0.798);
 }
 
+
 input[type="text"] {
 	width: 99%;
 	padding: 12px 20px;
@@ -61,17 +62,70 @@ input[type="checkbox"] {
 	box-shadow: 0.5px 0.4px 4px 0px rgb(242, 116, 244);
 }
 
-/* Mobile design: #1 (Extra small devices: phones 480px down) */
-@media screen and (max-width: 480px) {}
+@media (max-width: 991px) {
 
-/* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
-@media screen and (min-width: 481px) {}
+	fieldset legend {
+		font-size: x-large;
+	}
+
+	label {
+		font-size: 2vw;
+	}
+
+	#anonymouslabel{
+		font-size: 2vw;
+	}
+}
+
+@media (max-width: 767px) {
+
+	fieldset legend {
+		font-size: 3.5vw;
+	}
+
+	label {
+		font-size: 2.5vw;
+	}
+
+	#anonymouslabel{
+		font-size: 2vw;
+	}
+
+
+}
+
+@media screen and (max-width: 4320px) and (min-width: 1440px) {
+
+	fieldset legend {
+		font-size: x-large;
+	}
+
+	label {
+		font-size: normal;
+	}
+
+	#anonymouslabel{
+		font-size: 1.5vw;
+	}
+
+}
+
+
+
+/* Mobile design: #1 (Extra small devices: phones 400px down) */
+@media screen and (max-width: 400px) {}
+
+/* Mobile design: #2 (Small devices: Large phones and portrait tablets 400px - 768px) */
+@media screen and (min-width: 401px) {}
 
 /* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
 @media screen and (min-width: 769px) {}
 
-/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
+/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1025px)  */
 @media screen and (min-width: 1025px) {}
 
-/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
-@media screen and (min-width: 1201px) {}
+/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1025px-1440px) */
+@media screen and (min-width: 1206px) {}
+
+/* Desktop design: #6 (Extra large devices: Large laptops and desktops or TV 1440px up) */
+@media screen and (min-width: 1207px) {}

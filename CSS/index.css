@@ -12,7 +12,7 @@ h1 {
 	text-shadow: 0.5vw 0.5vw 1vw #f274f4be;
 	padding-top: 20vw;
 	font-weight: bold;
-	font-size: 5vw;
+	font-size: 7vw;
 	text-align: center;
 }
 
@@ -78,7 +78,7 @@ header a:hover {
 	padding-right: 7vw;
 	padding-bottom: 4vw;
 	font-weight: lighter;
-	font-size: 2.5vw;
+	font-size: 3.5vw;
 }
 
 /* Blur effect hover */
@@ -86,24 +86,40 @@ header a:hover {
 	width: 100%;
 	border-radius: 100vw;
 	box-shadow: 0vw 0vw 15vw #0ed4ee53;
-	border: 0.1vw solid transparent;
 	-webkit-backdrop-filter: blur(0.3vw);
 	backdrop-filter: blur(0.3vw);
 	background-color: rgba(0, 0, 0, 0);
-	font-size: 2.5vw;
+	font-size: 3.5vw;
 }
 
-/* Mobile design: #1 (Extra small devices: phones 480px down) */
-@media screen and (max-width: 480px) {}
+#principal h2{
+	font-size: 5vw;
+}
+/* Mobile design: #1 (Extra small devices: phones 400px down) */
+@media screen and (max-width: 400px) {
 
-/* Mobile design: #2 (Small devices: Large phones and portrait tablets 600px - 768px) */
-@media screen and (min-width: 481px) {}
+
+}
+
+
+
+/* Mobile design: #2 (Small devices: Large phones and portrait tablets 400px - 768px) */
+@media screen and (min-width: 401px) {
+
+
+}
+
+
+
 
 /* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
 @media screen and (min-width: 769px) {}
 
-/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1200px)  */
+/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1025px)  */
 @media screen and (min-width: 1025px) {}
 
-/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1200px up) */
-@media screen and (min-width: 1201px) {}
+/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1025px-1440px) */
+@media screen and (min-width: 1206px) {}
+
+/* Desktop design: #6 (Extra large devices: Large laptops and desktops or TV 1440px up) */
+@media screen and (min-width: 1207px) {}
