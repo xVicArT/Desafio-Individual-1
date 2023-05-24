@@ -1,179 +1,97 @@
-#miembros {
+#seccion2{
+	display: flex;
 	background-image: linear-gradient(0deg,
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
-		url(/IMG/miembros.jpg);
+		url(/IMG/miembros2.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 	background-position: center center;
+	padding: 100px 20px;
+}
+#seccion2 a{
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.798);
 }
 
-#miembros h2 {
-	color: rgba(242, 116, 244, 0.745);
+#seccion2 a:hover{
+	color: rgb(248, 187, 84);
+}
+#seccion2 h2{
+	position: absolute;
+	margin:auto;
+	top:auto;
+	left:0;
+	right:0;
+	bottom: auto;
+	text-align: center;
+	color: rgb(248, 187, 84);
+	text-shadow: 0.2rem 0.2rem 0.5rem rgba(250, 149, 124, 0.9);
 	font-weight: bold;
-	font-size: 6vw;
+	font-size: 4rem;
+
+}
+
+#seccion2 h3{
+	color: rgb(248, 187, 84);
+	text-shadow: 0.2rem 0.2rem 0.5rem rgba(250, 149, 124, 0.9);
+	font-weight: bold;
+	font-size: 2.1rem;
 	text-align: center;
-	align-items: center;
-	padding-top: 5.5vw;
-	text-shadow: 0.5vw 0.5vw 1vw #f274f4be;
+	margin-top: 110px;
 }
 
-#miembros h3 {
-	color: rgba(242, 116, 244, 0.745);
-	text-shadow: 0.2vw 0.2vw 0.4vw #f274f4be;
-	font-weight: lighter;
-	font-size: 4vw;
-	text-align: center;
-	align-items: center;
-	padding-bottom: 2.5vw;
-}
-
-#tyler {
-	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(13, 13, 13, 0.75);
-	text-align: center;
-	margin-right: 2vw;
-	font-size: 2vw;
-	border-radius: 2vw;
-}
-
-#tyler2 {
-	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(13, 13, 13, 0.75);
-	text-align: center;
-	margin-right: 2vw;
-	font-size: 2vw;
-	padding-top: 1.5vw;
-	border-radius: 2vw;
-}
-
-#tyler:hover {
-	border: 0 solid transparent;
-	border-radius: 2vw;
-	box-shadow: 0vw 3vw 15vw #00e1ff80;
-	-webkit-backdrop-filter: blur(0.3vw);
-	backdrop-filter: blur(0.3vw);
-	background-color: rgba(13, 13, 13, 0.75);
-}
-
-#tyler2:hover {
-	border: 0 solid transparent;
-	border-radius: 2vw;
-	box-shadow: 0vw 3vw 15vw #00e1ff80;
-	-webkit-backdrop-filter: blur(0.3vw);
-	backdrop-filter: blur(0.3vw);
-	background-color: rgba(13, 13, 13, 0.75);
-}
-
-#josh {
-	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(13, 13, 13, 0.75);
-	text-align: center;
-	margin-right: 2vw;
-	font-size: 2vw;
-	border-radius: 2vw;
-}
-
-#josh2 {
-	color: rgba(255, 255, 255, 0.798);
-	background-color: rgba(13, 13, 13, 0.75);
-	text-align: center;
-	margin-right: 2vw;
-	font-size: 2vw;
-	padding-top: 1.5vw;
-	border-radius: 2vw;
-}
-
-#josh:hover {
-	border: 0vw solid transparent;
-	border-radius: 2vw;
-	box-shadow: 0vw 3vw 15vw #00e1ff80;
-	-webkit-backdrop-filter: blur(0.3vw);
-	backdrop-filter: blur(0.3vw);
-	background-color: rgba(13, 13, 13, 0.75);
-}
-
-#josh2:hover {
-	border: 0vw solid transparent;
-	border-radius: 2vw;
-	box-shadow: 0vw 3vw 15vw #00e1ff80;
-	-webkit-backdrop-filter: blur(0.3vw);
-	backdrop-filter: blur(0.3vw);
-	background-color: rgba(13, 13, 13, 0.75);
-}
-
-#miembros-container {
-	display: flex;
-	border: 0;
+#seccion2 .nacimiento{
+	padding: 0;
 	margin: 0;
-	padding: 10vw;
-	padding-top: 3vw;
-	background-color: transparent;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
-/* Mobile design: #1 (Extra small devices: phones 400px down) */
-@media screen and (max-width: 375px) {
-
-	#miembros h2 {
-		font-size: 8vw;
-	}
-	
-	#miembros h3 {
-		font-size: 6vw;
-		padding: 1.5vw;
-	}
-	
-	#tyler {
-		text-align: justify;
-		margin-right: 0vw;
-		font-size: 3.7vw;
-	}
-	
-	#tyler2 {
-		text-align: justify;
-		margin-right: 0vw;
-		font-size: 3.7vw;
-		padding-top: 2vw;
-	}
-
-	#josh {
-		text-align: justify;
-		margin:0;
-		font-size: 3.7vw;
-		
-	}
-	
-	#josh2 {
-		text-align: justify;
-		margin: 0;
-		font-size: 3.7vw;
-		padding-top: 2vw;
-	}
-
-	#miembros-container {
-		display: flex;
-		flex-direction: column;
-		border: 0;
-		margin: 0;
-		padding: 10vw;
-		padding-top: 3vw;
-		background-color: transparent;
-	}
-
+#seccion2 p{
+	color: rgba(255, 255, 255, 0.798);
+	font-size: 1.4rem;
+	margin: 10px 15px;
+	text-align: justify;
+	-webkit-backdrop-filter: blur(0.08rem);
+	backdrop-filter: blur(0.08rem);
 }
 
-/* Mobile design: #2 (Small devices: Large phones and portrait tablets 400px - 768px) */
-@media screen and (min-width: 769px) {}
+#seccion2 p:hover{
+	border-radius: 0.5rem;
+	-webkit-backdrop-filter: blur(0.2rem);
+	backdrop-filter: blur(0.2rem);
+}
 
 
-/* Mobile design: #3 (Medium devices: Landscape tablets 768px-992px) */
-@media screen and (min-width: 769px) {}
+#tyler{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
 
-/*Desktop design: #4 (Large devices: Laptops, desktops 992px-1025px)  */
-@media screen and (min-width: 1025px) {}
+#tyler li{
+	list-style: none;
+	color: rgba(255, 255, 255, 0.798);
+	font-size: 1.4rem;
+	text-align: center;
+}
 
-/* Desktop design: #5 (Extra large devices: Large laptops and desktops or TV 1025px-1440px) */
-@media screen and (min-width: 1206px) {}
 
-/* Desktop design: #6 (Extra large devices: Large laptops and desktops or TV 1440px up) */
-@media screen and (min-width: 1207px) {}
+#josh{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+#josh li{
+	list-style: none;
+	color: rgba(255, 255, 255, 0.798);
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+	

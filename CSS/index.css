@@ -1,97 +1,86 @@
 /* Universal web settings */
+html{
+	overflow-x: hidden;
+	background-color: black;
+}
 * {
 	box-sizing: border-box;
 	border: none;
 	margin: 0;
 	padding: 0;
-	scroll-behavior: smooth;
+	scroll-behavior:smooth;
+	font-size: 100%;
+	font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-	color: rgba(242, 116, 244, 0.745);
-	text-shadow: 0.5vw 0.5vw 1vw #f274f4be;
-	padding-top: 20vw;
-	font-weight: bold;
-	font-size: 5.5vw;
-	text-align: center;
-}
-
-body {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 10px;
-}
-
-/* "Sticky" header and properties */
-header.container {
+header{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	text-align: justify;
-	font-size: 3vw;
-	padding: 1vw;
+	align-items: center;
+	text-align: center;
+	font-size: 1.8rem;
+	padding: 5px;
 	background-color: transparent;
-	word-spacing: 1.1vw;
-	position: fixed;
-	top: 0;
-	border: 0.1vw solid transparent;
-	-webkit-backdrop-filter: blur(1vw);
-	backdrop-filter: blur(1vw);
+	word-spacing: 1rem;
+	position:fixed;
+	-webkit-backdrop-filter: blur(0.3rem);
+	backdrop-filter: blur(0.3rem);
 	background-color: rgba(0, 0, 0, 0);
 	width: 100%;
 }
 
-/* Header links */
 header a {
 	text-decoration: none;
-	color: rgb(33, 183, 217);
+	color:rgb(33, 183, 217);
 	font-weight: bold;
 }
 
 header a:hover {
-	color: rgb(242, 116, 244);
+	color: rgb(248, 187, 84);
+	
 }
 
-/* Background :) */
-#hero {
+main{
+	display: flex;
 	background-image: linear-gradient(0deg,
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
-		url(/IMG/main-top.png);
+		url(/IMG/main-top2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	padding: 10rem;
 }
 
-/* Seccion #1 same elements */
-#principal {
-	display: flex;
-	align-items: center;
+main h1{
+	color: rgb(248, 187, 84);
+	text-shadow: 0.2rem 0.2rem 0.5rem rgba(250, 149, 124, 0.9);
 	text-align: center;
-	flex-direction: column;
-	height: 70vw;
+	font-weight: bold;
+	font-size: 4rem;
+
+}
+
+main p{
+	text-align:justify;
 	color: rgba(255, 255, 255, 0.798);
-}
-
-#principal p {
-	padding-top: 4vw;
-	padding-left: 7vw;
-	padding-right: 7vw;
-	padding-bottom: 4vw;
 	font-weight: lighter;
-	font-size: 2.5vw;
+	font-size: 1.5rem;
+	padding:10px 15px;
+	-webkit-backdrop-filter: blur(0.08rem);
+	backdrop-filter: blur(0.08rem);
+
+
 }
 
-/* Blur effect hover */
-#principal p:hover {
-	width: 100%;
-	border-radius: 100vw;
-	box-shadow: 0vw 0vw 15vw #0ed4ee53;
-	-webkit-backdrop-filter: blur(0.3vw);
-	backdrop-filter: blur(0.3vw);
-	background-color: rgba(0, 0, 0, 0);
-	font-size: 2.5vw;
+main p:hover{
+	-webkit-backdrop-filter: blur(0.15rem);
+	backdrop-filter: blur(0.15rem);
 }
 
-#principal h2{
-	font-size: 4vw;
-}
+/* Responsive: Laptop (1024px up) */
+@media (max-width: 1024px) {}
+
+
+/* Responsive: Tablet (767px down) */
+@media (max-width: 767px) {}
