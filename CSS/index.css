@@ -62,25 +62,22 @@ main h1{
 }
 
 main p{
-	text-align:justify;
+	text-align: justify;
+	justify-content: center;
 	color: rgba(255, 255, 255, 0.798);
 	font-weight: lighter;
 	font-size: 1.5rem;
 	padding:10px 15px;
-	-webkit-backdrop-filter: blur(0.08rem);
-	backdrop-filter: blur(0.08rem);
+	-webkit-backdrop-filter: blur(0.09rem);
+	backdrop-filter: blur(0.09rem);
 
 
 }
 
-main p:hover{
-	-webkit-backdrop-filter: blur(0.15rem);
-	backdrop-filter: blur(0.15rem);
-}
-
-/* Responsive: Laptop (1024px up) */
-@media (max-width: 1024px) {}
+/* Arriba: Resoluciones > 800px  */
+/* Responsive: Tablets (800px - 510px) */
+@media (max-width: 800px) {}
 
 
-/* Responsive: Tablet (767px down) */
-@media (max-width: 767px) {}
+/* Responsive: Tablet (510px down) */
+@media (max-width: 510px) {}

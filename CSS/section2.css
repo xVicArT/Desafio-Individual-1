@@ -54,14 +54,8 @@
 	font-size: 1.4rem;
 	margin: 10px 15px;
 	text-align: justify;
-	-webkit-backdrop-filter: blur(0.08rem);
-	backdrop-filter: blur(0.08rem);
-}
-
-#seccion2 p:hover{
-	border-radius: 0.5rem;
-	-webkit-backdrop-filter: blur(0.2rem);
-	backdrop-filter: blur(0.2rem);
+	-webkit-backdrop-filter: blur(0.09rem);
+	backdrop-filter: blur(0.09rem);
 }
 
 
@@ -93,5 +87,13 @@
 	font-size: 1.4rem;
 	text-align: center;
 }
+
+/* Arriba: Resoluciones > 800px  */
+/* Responsive: Tablets (800px - 510px) */
+@media (max-width: 800px) {}
+
+
+/* Responsive: Tablet (510px down) */
+@media (max-width: 510px) {}
 
 	

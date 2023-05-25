@@ -66,6 +66,14 @@ fieldset legend {
 		box-shadow: 0px 0px 15px 1px rgb(242, 116, 244);
 	}
 
+/* Arriba: Resoluciones > 800px  */
+/* Responsive: Tablets (800px - 510px) */
+@media (max-width: 800px) {}
+
+
+/* Responsive: Tablet (510px down) */
+@media (max-width: 510px) {}
+
 
 	
 	

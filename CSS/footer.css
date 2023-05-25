@@ -23,3 +23,11 @@ footer nav a:hover {
 #home{
 	font-size: 0.75rem;
 }
+
+/* Arriba: Resoluciones > 800px  */
+/* Responsive: Tablets (800px - 510px) */
+@media (max-width: 800px) {}
+
+
+/* Responsive: Tablet (510px down) */
+@media (max-width: 510px) {}

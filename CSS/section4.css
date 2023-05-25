@@ -107,17 +107,17 @@
 }
 
 
-
-/* Responsive: Laptop (1024px up) */
-@media (max-width: 1024px) {
+/* Arriba: Resoluciones > 800px  */
+/* Responsive: Laptop (800px - 510px) */
+@media (max-width: 800px) {
 	.flip-main .flip-card {
 		flex: 0 0 calc(50% - 30px);
 	}
 }
 
 
-/* Responsive: Tablet (767px down) */
-@media (max-width: 767px) {
+/* Responsive: Mobile (510px down) */
+@media (max-width: 510px) {
 	.flip-main .flip-card {
 		flex: 0 0 calc(100% - 35px);
 	}
