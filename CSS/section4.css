@@ -17,7 +17,7 @@
 	text-align: center;
 	text-decoration: none;
 	font-weight: lighter;
-	font-size: 0.69rem;
+	font-size: 0.5rem;
 	color: rgba(255, 255, 255, 0.798);
 }
 
@@ -38,7 +38,7 @@
 	margin: auto;
 }
 
-#tour{
+#tour {
 	background-image: linear-gradient(0deg,
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -106,20 +106,36 @@
 	transform: rotateY(180deg);
 }
 
+/* Responsive: Empleado especialmente para modular tamaños de letra y espacios*/
 
-/* Arriba: Resoluciones > 800px  */
-/* Responsive: Laptop (800px - 510px) */
 @media (max-width: 800px) {
 	.flip-main .flip-card {
 		flex: 0 0 calc(50% - 30px);
 	}
+
+	.text ul {
+		font-size: 0.5rem;
+	}
+
+	#tour h2 {
+		font-size: 3rem;
+	}
 }
 
+/* Responsive: Empleado especialmente para modular tamaños de letra y espacios*/
 
-/* Responsive: Mobile (510px down) */
 @media (max-width: 510px) {
 	.flip-main .flip-card {
 		flex: 0 0 calc(100% - 35px);
 	}
 
+	.text ul {
+		font-size: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#tour h2 {
+		font-size: 2.4rem;
+	}
 }
