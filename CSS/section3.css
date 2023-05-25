@@ -70,9 +70,10 @@
 
 .frdisp {
 	position: absolute;
-	height: 32%;
+	height: 34%;
 	display: none;
 	width: 100%;
+	z-index: 2;
 }
 
 .container-imgd .box-img:nth-child(3) {
@@ -100,6 +101,10 @@
 	#discografia h2 {
 		font-size: 3rem;
 	}
+
+	.frdisp {
+		height: 37%;
+	}
 }
 
 /* Responsive: Empleado especialmente para modular tamaños de letra, espacios y posiciones*/
@@ -117,10 +122,23 @@
 	#discografia h2 {
 		font-size: 3rem;
 	}
+
+	.frdisp {
+		height: 25%;
+	}
 }
 
 @media only screen and (max-width: 375px) {
 	#discografia h2 {
 		font-size: 2.3rem;
 	}
+
+	.frdisp {
+		height: 36%;
+	}
+}
+
+@media only screen and (max-width: 310px) {
+	#discografia h2 {
+		font-size: 2rem;}
 }

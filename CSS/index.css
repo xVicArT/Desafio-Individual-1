@@ -1,4 +1,7 @@
 /* Universal web settings */
+html{
+	overflow-x: hidden;
+}
 * {
 	box-sizing: border-box;
 	border: none;

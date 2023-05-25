@@ -95,7 +95,7 @@ input::placeholder {
 	}
 
 	#info a {
-		font-size: 0.88rem;
+		font-size: 0.85rem;
 	}
 
 	label[for="anonymous"] {
@@ -106,4 +106,35 @@ input::placeholder {
 		width: 0.7rem;
 		height: 0.7rem;
 	}
+}
+@media only screen and (max-width: 310px) {
+
+	#info h2{
+		font-size: 0.9rem;
+	}
+
+	#info a {
+		font-size: 0.65rem;
+	}
+
+	label[for="anonymous"] {
+		font-size: 0.7rem;
+	}
+
+	input[type="checkbox"] {
+		width: 0.5rem;
+		height: 0.5rem;
+	}
+
+		fieldset{
+			width: 15rem;
+		}
+
+		fieldset legend {
+			font-size: 0.7rem;
+		}
+
+		#info label{
+			font-size: 0.6rem;
+		}
 }
